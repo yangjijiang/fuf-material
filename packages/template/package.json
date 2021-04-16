@@ -1,0 +1,32 @@
+{
+  "name": "template",
+  "version": "0.0.6",
+  "description": "",
+  "author": "yangjijiang",
+  "license": "MIT",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yangjijiang/fuf-material.git"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@vue/cli-plugin-babel": "4.5.12",
+    "vue": "2.6.12"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "4.5.12",
+    "vue-template-compiler": "2.6.12"
+  },
+  "vue": {
+    "pages": {
+      "index": {
+        "entry": "../main.js",
+        "template": "../index.html"
+      }
+    }
+  }
+}
