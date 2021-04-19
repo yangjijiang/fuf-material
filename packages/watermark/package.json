@@ -10,6 +10,7 @@
     "type": "component"
   },
   "dependencies": {
+    "@vue/cli-plugin-babel": "4.5.12",
     "vue": "2.6.12"
   },
   "devDependencies": {
