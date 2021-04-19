@@ -1,0 +1,26 @@
+{
+  "name": "@fuf/watermark",
+  "version": "0.0.0",
+  "description": "系统水印组件",
+  "author": "yangjijiang",
+  "homepage": "https://github.com/yangjijiang/fuf-material#readme",
+  "license": "MIT",
+  "main": "src/main.js",
+  "material": {
+    "type": "component"
+  },
+  "dependencies": {
+    "vue": "2.6.12"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "4.5.12",
+    "vue-template-compiler": "2.6.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangjijiang/fuf-material.git"
+  },
+  "scripts": {
+    "start": "vue-cli-service serve"
+  }
+}
