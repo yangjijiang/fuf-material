@@ -24,8 +24,8 @@
   "vue": {
     "pages": {
       "index": {
-        "entry": "../main.js",
-        "template": "../index.html"
+        "entry": "public/main.js",
+        "template": "public/index.html"
       }
     }
   }
