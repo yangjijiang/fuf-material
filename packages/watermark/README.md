@@ -12,7 +12,7 @@
 Here's our logo (hover to see the title text):
 
 Inline-style:
-![alt text](https://github.com/yangjijiang/fuf-material/blob/master/assets/watermark/frame.jpeg "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/yangjijiang/fuf-material/master/assets/watermark/frame.jpeg "Logo Title Text 1")
 
 
 ## Tables
