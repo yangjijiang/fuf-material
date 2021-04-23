@@ -9,6 +9,9 @@
     "type": "git",
     "url": "https://github.com/yangjijiang/fuf-material.git"
   },
+  "material": {
+    "type": "block"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
