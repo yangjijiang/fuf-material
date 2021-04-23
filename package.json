@@ -3,6 +3,13 @@
   "private": true,
   "license": "MIT",
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "lerna": "^3.22.1",
+    "pre-commit": "1.2.2"
+  },
+  "pre-commit": [
+    "infos"
+  ],
+  "scripts": {
+    "infos": "node ./material.js"
   }
 }
