@@ -1,13 +1,16 @@
 {
   "name": "@fuf/watermark",
   "version": "0.0.0",
-  "description": "系统水印组件",
+  "description": "系统水印",
   "author": "yangjijiang",
   "homepage": "https://github.com/yangjijiang/fuf-material#readme",
   "license": "MIT",
   "main": "src/main.js",
   "material": {
-    "type": "component"
+    "type": "component",
+    "tStack": {
+      "frame": "vue"
+    }
   },
   "dependencies": {
     "@vue/cli-plugin-babel": "4.5.12",

@@ -1,6 +1,6 @@
 {
   "name": "template",
-  "version": "0.0.6",
+  "version": "0.0.0",
   "description": "",
   "author": "yangjijiang",
   "license": "MIT",
@@ -10,7 +10,13 @@
     "url": "https://github.com/yangjijiang/fuf-material.git"
   },
   "material": {
-    "type": "block"
+    "type": "block",
+    "tStack": {
+      "uiLib": "view-design",
+      "jts": "js",
+      "css": "less",
+      "frame": "vue"
+    }
   },
   "scripts": {
     "serve": "vue-cli-service serve",
