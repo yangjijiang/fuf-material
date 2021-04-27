@@ -8,7 +8,7 @@
   "main": "src/main.js",
   "material": {
     "type": "component",
-    "openModule": [
+    "modules": [
       "src/components/WaterMark.vue"
     ],
     "tStack": {
