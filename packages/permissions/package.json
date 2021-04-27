@@ -1,0 +1,30 @@
+{
+  "name": "@fuf/permissions",
+  "version": "0.0.0",
+  "description": "权限控制",
+  "author": "yangjijiang",
+  "homepage": "https://github.com/yangjijiang/fuf-material#readme",
+  "license": "MIT",
+  "main": "lib/permissions.js",
+  "material": {
+    "type": "component",
+    "tStack": {
+      "frame": "vue"
+    }
+  },
+  "dependencies": {
+    "@vue/cli-plugin-babel": "4.5.12",
+    "vue": "2.6.12"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "4.5.12",
+    "vue-template-compiler": "2.6.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangjijiang/fuf-material.git"
+  },
+  "scripts": {
+    "start": "vue-cli-service serve"
+  }
+}
