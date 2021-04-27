@@ -8,6 +8,10 @@
   "main": "lib/permissions.js",
   "material": {
     "type": "component",
+    "openModule": [
+      "src/components/demo.vue",
+      "src/main.js"
+    ],
     "tStack": {
       "frame": "vue"
     }
