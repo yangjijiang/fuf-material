@@ -2,7 +2,7 @@
   <div>
     <h1>权限控制（全局指命、命局函数）</h1>
     <div>
-      假设从后端获取的权限列表数据为：permissions = { roles: ['system-admin'], permissions: ['A:B:*', 'C:*:update'] }
+      假设从后端获取的权限列表数据为：permissions = { roles: ['system-admin'], permissions: ['A:B:*', 'C:*:update', 'D:*:delete,view,update'] }
     </div>
     <h3>角色控制：</h3>
     <div v-hasRole="'system-admin'">v-hasRole</div>
